@@ -1,0 +1,36 @@
+body {
+    background-color: pink;
+    /* UUUUUUUUUUUUUUH YEAH YEAH YEAH*/
+}
+
+/* ICONS ON TOP OF THE PAGE */
+header.navbar a.icon {
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 4px 8px;
+}
+header.navbar a.icon.github {
+    background-image: url("../layout/github.png");
+}
+header.navbar a.icon.face {
+	background-image: url("../layout/face.png");
+}
+header.navbar a.icon.instagram {
+	background-image: url("../layout/instagram.png");
+}
+
+/* TITLE IN THE MIDDLE */
+header .title h1 {
+    font-family: Zilla;
+    color: #231123;
+    margin: 40px 0 6px;
+}
+header .title p.subtitle {
+	font-family: SpectralSC-Bold;
+    font-size: 17px;
+    color: #231123;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
