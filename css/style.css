@@ -1,5 +1,5 @@
 body {
-    background-image: url("../layout/pattern.png");
+    background-image: url("../layout/stardust.png");
     background-repeat: repeat;
     /* UUUUUUUUUUUUUUH YEAH YEAH YEAH*/
 }
@@ -10,7 +10,7 @@ header.navbar a.icon {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
-	margin: 4px 8px;
+	margin: 4px 2px;
 }
 header.navbar a.icon.github {
     background-image: url("../layout/github.png");
@@ -26,12 +26,12 @@ header.navbar a.icon.instagram {
 header .title h1 {
     font-family: Yesteryear;
     font-size: 60px;
-    color: #231123;
-    margin: 40px 0 6px;
+    color: #D36526;
+    margin: 0 0 -5px;
 }
 header .title p.subtitle {
 	font-family: Quicksand;
-    font-size: 17px;
+    font-size: 14px;
     color: #231123;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -42,9 +42,28 @@ header nav ul li {
     font-size: 12px;
 }
 section .container-fluid {
-    margin: 250px 40px 0;
+    margin-top: 200px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 100%;
+
 }
-nav .navbar-default .container {
-    width: 12px;
-    margin-bottom: 0px;
+/* FOOTER */
+#footer {
+    background: #231123;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+#footer span {
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: Quicksand;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
 }
