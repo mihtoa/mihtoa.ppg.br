@@ -2,4 +2,4 @@
 
 Personal Website
 
-mihtoa.github.io
+http://mihtoa.github.io
