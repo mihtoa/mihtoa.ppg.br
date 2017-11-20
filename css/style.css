@@ -1,5 +1,6 @@
 body {
-    background-color: pink;
+    background-image: url("../layout/pattern.png");
+    background-repeat: repeat;
     /* UUUUUUUUUUUUUUH YEAH YEAH YEAH*/
 }
 
@@ -23,14 +24,27 @@ header.navbar a.icon.instagram {
 
 /* TITLE IN THE MIDDLE */
 header .title h1 {
-    font-family: Zilla;
+    font-family: Yesteryear;
+    font-size: 60px;
     color: #231123;
     margin: 40px 0 6px;
 }
 header .title p.subtitle {
-	font-family: SpectralSC-Bold;
+	font-family: Quicksand;
     font-size: 17px;
     color: #231123;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+header nav ul li {
+    display: inline-block;
+	font-family: Quicksand;
+    font-size: 12px;
+}
+section .container-fluid {
+    margin: 250px 40px 0;
+}
+nav .navbar-default .container {
+    width: 12px;
+    margin-bottom: 0px;
 }

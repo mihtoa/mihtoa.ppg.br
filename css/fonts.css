@@ -9,12 +9,17 @@
 	font-size: 1em;
 }
 @font-face {
-	font-family: 'FontAwesome';
-	src: url("../fonts/Awesome/fontawesome-webfont.ttf");
+	font-family: 'Yesteryear';
+	src: url("../fonts/Yesteryear/Yesteryear-Regular.ttf");
 	font-size: 1em;
 }
 @font-face {
 	font-family: 'Zilla';
 	src: url("../fonts/Zilla/ZillaSlabHighlight-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'Quicksand';
+	src: url("../fonts/Quicksand/Quicksand-Light.ttf");
 	font-size: 1em;
 }
