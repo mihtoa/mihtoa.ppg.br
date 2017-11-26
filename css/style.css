@@ -21,7 +21,9 @@ header.navbar a.icon.face {
 header.navbar a.icon.instagram {
 	background-image: url("../layout/instagram.png");
 }
-
+#link-home {
+	text-decoration: none
+}
 /* TITLE IN THE MIDDLE */
 header .title h1 {
     font-family: Yesteryear;
@@ -68,6 +70,11 @@ section .card > img {
 }
 section .card-text {
   font-size: 85%;
+}
+#about-me {
+    margin-left: 450px;
+    margin-top: 10px;
+    color: #fff;
 }
 /* FOOTER */
 footer {
