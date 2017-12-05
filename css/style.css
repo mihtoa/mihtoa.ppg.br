@@ -1,85 +1,39 @@
 body {
-    background-image: url("../layout/stardust.png");
-    background-repeat: repeat;
-    /* UUUUUUUUUUUUUUH YEAH YEAH YEAH*/
+    background-color: #ff5845;
 }
-
-/* ICONS ON TOP OF THE PAGE */
-header.navbar a.icon {
-	background-repeat: no-repeat;
-	display: inline-block;
-	width: 24px;
-	height: 24px;
-	margin: 4px 2px;
+header {
+    background-color: #fff;
+    height: 72px;
+} /*
+header ul li {
+	font-family: Desmond;
+    font-size: 18px;
+} */
+header img {
+    width: 50%;
+    margin-left: 0px;
 }
-header.navbar a.icon.github {
-    background-image: url("../layout/github.png");
+header span {
+    margin-top: 20px;
+    color: #ff5845;
 }
-header.navbar a.icon.face {
-	background-image: url("../layout/face.png");
+header span a {
+    padding: 3px;
+    text-decoration: none;
 }
-header.navbar a.icon.instagram {
-	background-image: url("../layout/instagram.png");
+header .navbar-text {
+    margin-right: 20px;
+    font-family: Desmond;
+    font-size: 24px;
+    text-decoration: none;
 }
-#link-home {
-	text-decoration: none
+section {
+    height: 600px;
 }
-/* TITLE IN THE MIDDLE */
-header .title h1 {
-    font-family: Yesteryear;
-    font-size: 60px;
-    color: #D36526;
-    margin: 0 0 -5px;
-}
-header .title p.subtitle {
-	font-family: Quicksand;
-    font-size: 14px;
-    color: #231123;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-header nav ul li {
-    display: inline-block;
-	font-family: Quicksand;
-    font-size: 12px;
-}
-section .container-fluid {
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1100px;
-    height: 100%;
-}
-section .container-fluid img {
-    height: 340px;
-}
-section .album {
-  min-height: 50rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-section .card {
-  float: left;
-  width: 33.333%;
-  padding: .75rem;
-  margin-bottom: 2rem;
-  border: 0;
-}
-section .card > img {
-  margin-bottom: .75rem;
-}
-section .card-text {
-  font-size: 85%;
-}
-#about-me {
-    margin-left: 450px;
-    margin-top: 10px;
-    color: #fff;
-}
-/* FOOTER */
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-color: #2b2525;
 }
 footer p {
   margin-bottom: .25rem;

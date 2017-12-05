@@ -23,3 +23,13 @@
 	src: url("../fonts/Quicksand/Quicksand-Light.ttf");
 	font-size: 1em;
 }
+@font-face {
+	font-family: 'Desmond';
+	src: url("../fonts/Desmond/Desmond.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'Awesome';
+	src: url("../fonts/Awesome/Awesome.ttf");
+	font-size: 1em;
+}
