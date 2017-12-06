@@ -27,26 +27,39 @@ header span a {
     padding: 0;
     text-align: center;
 }
-
 .menu ul li {
     display: inline;
 }
-
 .menu ul li a {
     color: #2b2525;
     text-decoration: none;
     padding: 2px 10px;
     float: left;
 }
-
-section {
-    height: 600px;
+#titulo {
+    margin-top: 40px;
+    margin-left: 122px;
+}
+#titulo p {
+    font-size: 22px;
+    font-family: desmond;
+    color: #fff;
+}
+#titulo h1 {
+    font-size: 40px;
+    font-family: desmond;
+    color: #fff;
+    font-weight: bolder;
+}
+.meio {
+    height: 700px;
+    width: 100%;
 }
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-color: #2b2525;
-  margin-bottom: 0px;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      background-color: #2b2525;
+      margin-bottom: 0px;
 }
 footer p {
   margin-bottom: .25rem;
