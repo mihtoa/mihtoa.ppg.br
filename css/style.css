@@ -16,7 +16,6 @@ header span {
 header span a {
     color: #ff5845;
     padding: 3px;
-    text-decoration: none;
 }
 .menu {
     margin-top: -62px;
@@ -31,6 +30,7 @@ header span a {
 }
 .menu ul li {
     display: inline;
+    text-decoration: none;
 }
 .menu ul li a {
     color: #ff5845;
@@ -38,6 +38,9 @@ header span a {
     text-decoration: none;
     padding: 2px 10px;
     float: left;
+}
+.menu:hover ul li {
+    background-color: #2b2525;
 }
 #titulo {
     margin-top: 40px;
