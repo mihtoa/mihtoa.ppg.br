@@ -1,34 +1,32 @@
 body {
-    background-color: #ff5845;
+  background-color: #ff5845;
 }
 header {
-    background-color: #fff;
-    height: 72px;
+  background-color: #fff;
+  height: 72px;
 }
 header img {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 header span {
-    margin-top: 20px;
-    color: #ff5845;
-}
-/*
-funcionou?
-*/
-header>span>a {
-    text-decoration: none;
+  margin-top: 20px;
 }
 header span a {
-    padding: 3px;
-    text-decoration: none;
+  color: #ff5845;
+  padding: 3px;
+}
+header span a:hover {
+  text-decoration: none;
+  color: #2b2525;
+
 }
 header .navbar-text {
-    margin-right: 20px;
-    font-family: Desmond;
-    font-size: 24px;
+  margin-right: 20px;
+  font-family: Desmond;
+  font-size: 24px;
 }
 section {
-    height: 600px;
+  height: 600px;
 }
 footer {
   padding-top: 3rem;
