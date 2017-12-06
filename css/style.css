@@ -11,8 +11,10 @@ header img {
 header span {
     margin-top: 20px;
     color: #ff5845;
+    text-decoration: none;
 }
 header span a {
+    color: #ff5845;
     padding: 3px;
     text-decoration: none;
 }
