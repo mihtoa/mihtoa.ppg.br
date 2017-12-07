@@ -64,8 +64,26 @@ header span a:hover {
     font-weight: bolder;
 }
 .meio {
-    height: 700px;
+    height: 100px;
     width: 100%;
+}
+#gallery {
+    padding: 8px;
+    width: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+   }
+#gallery ul {
+    list-style: none;
+}
+#gallery ul li {
+    display: inline;
+}
+#gallery ul img {
+    padding: 5px;
+}
+#gallery:hover ul img {
+    background-color: #2b2525;
 }
 footer {
     padding-top: 3rem;
