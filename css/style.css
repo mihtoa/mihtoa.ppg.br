@@ -55,8 +55,8 @@ header span a:hover {
     margin-left: 75px;
 }
 #titulo p {
-    font-size: 22px;
-    font-family: desmond;
+    font-size: 18px;
+    font-family: microsoft;
     color: #fff;
     margin-left: 122px;
 }
@@ -79,8 +79,8 @@ header span a:hover {
 }
 #titulo-2 p {
     margin-left: 122px;
-    font-size: 22px;
-    font-family: desmond;
+    font-size: 18px;
+    font-family: microsoft;
     color: #ff5845;
 }
 #titulo-2 h1 {
@@ -89,7 +89,7 @@ header span a:hover {
     font-family: desmond;
     color: #ff5845;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: -30px;
 }
 #titulo-3 {
     width: 100%;
@@ -101,8 +101,8 @@ header span a:hover {
 }
 #titulo-3 p {
     margin-left: 122px;
-    font-size: 22px;
-    font-family: desmond;
+    font-size: 18px;
+    font-family: microsoft;
     color: #fff;
 }
 #titulo-3 h1 {
@@ -111,7 +111,7 @@ header span a:hover {
     font-family: desmond;
     color: #fff;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: -30px;
 }
 .meio {
     height: 100px;
