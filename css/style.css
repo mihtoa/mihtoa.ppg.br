@@ -48,19 +48,21 @@ header span a:hover {
 .menu:hover ul li {
     background-color: #2b2525;
 }
-#titulo {
+#portfolio {
     margin-top: 40px;
 }
-#titulo img {
+#portfolio img {
     margin-left: 75px;
 }
-#titulo p {
-    font-size: 18px;
+#portfolio p {
+    margin-left: 122px;
+    margin-right: 122px;
+    font-size: 14px;
     font-family: Open-Sans;
     color: #fff;
     margin-left: 122px;
 }
-#titulo h1 {
+#portfolio h1 {
     font-size: 40px;
     font-family: desmond;
     color: #fff;
@@ -68,22 +70,23 @@ header span a:hover {
     margin-left: 165px;
     margin-top: -30px;
 }
-#titulo-2 {
+#aboutme {
     width: 100%;
     height: 300px;
     background-color: #fff
 }
-#titulo-2 img {
+#aboutme img {
     margin-left: 105px;
     margin-top: 20px;
 }
-#titulo-2 p {
+#aboutme p {
     margin-left: 122px;
-    font-size: 18px;
+    margin-right: 500px;
+    font-size: 14px;
     font-family: Open-Sans;
     color: #ff5845;
 }
-#titulo-2 h1 {
+#aboutme h1 {
     margin-left: 165px;
     font-size: 40px;
     font-family: desmond;
@@ -91,21 +94,22 @@ header span a:hover {
     font-weight: bolder;
     margin-top: -30px;
 }
-#titulo-3 {
+#skills {
     width: 100%;
     height: 300px;
 }
-#titulo-3 img {
+#skills img {
     margin-left: 105px;
     margin-top: 20px;
 }
-#titulo-3 p {
+#skills p {
     margin-left: 122px;
-    font-size: 18px;
+    margin-right: 122px;
+    font-size: 14px;
     font-family: Open-Sans;
     color: #fff;
 }
-#titulo-3 h1 {
+#skills h1 {
     margin-left: 165px;
     font-size: 40px;
     font-family: desmond;
@@ -122,6 +126,7 @@ header span a:hover {
     width: auto;
     margin-left: 70px;
     margin-right: 70px;
+    margin-bottom: 100px;
    }
 #gallery ul {
     list-style: none;
@@ -132,8 +137,13 @@ header span a:hover {
 #gallery ul img {
     padding: 5px;
 }
-#gallery:hover ul img {
+#gallery:hover ul a img {
     background-color: #2b2525;
+}
+#imagem-logo img {
+    margin-left: 70%;
+    margin-bottom: -265px;
+    height: 300px;
 }
 footer {
     padding-top: 3rem;
