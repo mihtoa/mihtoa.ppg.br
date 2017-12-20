@@ -4,37 +4,7 @@
 	font-size: 1em;
 }
 @font-face {
-	font-family: 'Spectral';
-	src: url("../fonts/Spectral/SpectralSC-Bold.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'Yesteryear';
-	src: url("../fonts/Yesteryear/Yesteryear-Regular.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'Zilla';
-	src: url("../fonts/Zilla/ZillaSlabHighlight-Regular.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'Quicksand';
-	src: url("../fonts/Quicksand/Quicksand-Light.ttf");
-	font-size: 1em;
-}
-@font-face {
 	font-family: 'Desmond';
-	src: url("../fonts/Desmond/Desmond.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'Awesome';
-	src: url("../fonts/Awesome/Awesome.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'microsoft';
-	src: url("../fonts/microsoft/microsoft.ttf");
+	src: url("../fonts/Desmond/Desmond.otf");
 	font-size: 1em;
 }
