@@ -160,10 +160,9 @@ header span a:hover {
     display: inline;
 }
 #gallery ul img {
-    padding: 5px;
-}
-#gallery:hover ul a img {
-    background-color: #2b2525;
+    padding: 3px;
+    weight: 100%;
+    height: auto;
 }
 #imagem-logo img {
     margin-left: 70%;
