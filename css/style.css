@@ -17,6 +17,9 @@ header span a {
     color: #ff5845;
     padding: 3px;
 }
+header span i {
+    color: #2b2525;
+}
 header span a:hover {
     text-decoration: none;
     color: #2b2525;
