@@ -99,7 +99,8 @@ header span a:hover {
     margin-right: 122px;
 }
 #portfolio .gallery img {
-    width: 100px;
+    width: 150px;
+    height: auto;
 }
 #aboutme {
     width: 100%;
