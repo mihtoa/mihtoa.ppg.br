@@ -146,24 +146,6 @@ header span a:hover {
     height: 100px;
     width: 100%;
 }
-#gallery {
-    padding: 8px;
-    width: auto;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 100px;
-   }
-#gallery ul {
-    list-style: none;
-}
-#gallery ul li {
-    display: inline;
-}
-#gallery ul img {
-    padding: 3px;
-    weight: 100%;
-    height: auto;
-}
 #imagem-logo img {
     margin-left: 70%;
     margin-bottom: -265px;
