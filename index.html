@@ -8,17 +8,27 @@
     <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lightbox.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="lib/fancybox-master/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="lib/fancybox-master/dist/jquery.fancybox.min.css"/>
+    <script>
+
+    $(document).ready(function() {
+
+    });
+    </script>
 </head>
 <body>
     <header class="navbar-top">
         <div class="container">
             <span class="pull-right">
+                <a class="fa fa-linkedin fa-2x" target="_blank" href="https://www.linkedin.com/in/mihtoa"></a>
                 <a class="fa fa-github fa-2x" target="_blank" href="https://github.com/mihtoa"></a>
+                <a class="fa fa-behance fa-2x" target="_blank" href="https://www.behance.net/mihtoa"></a>
                 <a class="fa fa-facebook-official fa-2x" target="_blank" href="https://www.facebook.com/mihtoa"></a>
                 <a class="fa fa-instagram fa-2x" target="_blank" href="https://www.instagram.com/mihtoa"></a>
+                <a class="fa fa-youtube fa-2x" target="_blank" href="https://www.youtube.com/user/Sentinelah"></a>
+                <a class="fa fa-twitter fa-2x" target="_blank" href="https://twitter.com/masunat_"></a>
             </span>
             <div class="navbar-header">
               <a class="navbar-brand" href="#">
@@ -29,7 +39,7 @@
         <ul>
     		<li class="drop"><a href="#portfolio">PORTFOLIO</a></li>
     		<li class="drop"><a href="#aboutme">ABOUT ME</a></li>
-    		<li class="drop"><a href="#skills">SKILLS</a></li>
+    		<!-- <li class="drop"><a href="#skills">SKILLS</a></li> -->
         </ul>
     </nav>
         <div class="jumbotron">
@@ -38,15 +48,28 @@
           <p class="text-center"><a class="btn btn-default btn-lg" href="#aboutme" role="button">Learn more</a></p>
         </div>
     <div id="portfolio">
-        <img src="layout/icon-title.png">
+        <div class="icone"><img src="layout/icon-title.png"></div>
         <h1>PORTFOLIO</h1>
         <p>HELLO, BABY!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur ad exercitationem nemo, obcaecati ipsa minus in facilis non nihil officiis, tempore, nam aperiam necessitatibus quasi fuga autem. Officia eos inventore maxime et nemo qui minima, harum est saepe corporis!</p>
-
-        <p>
-            <a href="layout/portfolio/vampire.png" data-fancybox data-caption="This image has a caption">
-            <img src="layout/portfolio/vampire.png"/></a>
-        </p>
+        </br>
+        </br>
+            <div class="gallery">
+                <a href="layout/portfolio/vampire.png" data-caption="This image has no caption yet" data-fancybox="image">
+                <img src="layout/portfolio/vampire.png" alt="Desenho01"></a>
+                <a href="layout/portfolio/logo1.png" data-caption="This image has a caption" data-fancybox="image">
+                <img src="layout/portfolio/logo1.png" alt="Desenho02"></a>
+                <a href="layout/portfolio/mockup1.jpg" data-caption="This image has a caption" data-fancybox="image">
+                <img src="layout/portfolio/mockup1.jpg" alt="Desenho03"></a>
+                <a href="layout/portfolio/mockup1.jpg" data-caption="This image has a caption" data-fancybox="image">
+                <img src="layout/portfolio/mockup1.jpg" alt="Desenho03"></a>
+                <a href="layout/portfolio/mockup1.jpg" data-caption="This image has a caption" data-fancybox="image">
+                <img src="layout/portfolio/mockup1.jpg" alt="Desenho03"></a>
+                <a href="layout/portfolio/mockup1.jpg" data-caption="This image has a caption" data-fancybox="image">
+                <img src="layout/portfolio/mockup1.jpg" alt="Desenho03"></a>
+            </div>
+        </br>
+        </br>
     </div>
 
     <div id="imagem-logo">
@@ -59,22 +82,20 @@
         <p>uh la la la la</p>
     </div>
     </div>
+    <!-- PARTE DAS SKIL
     <div id="skills">
         <img src="layout/icon-title.png">
         <h1>SKILLS</h1>
         <p>
          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam consequatur ad exercitationem nemo, obcaecati ipsa minus in facilis non nihil officiis, tempore, nam aperiam necessitatibus quasi fuga autem. Officia eos inventore maxime et nemo qui minima, harum est saepe corporis!
         </p>
-
-
-
     </div>
 
     <div class="meio">
         <div class"container">
         </div>
     </div>
-
+    -->
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
@@ -82,8 +103,5 @@
         </p>
         <p>© 2018 <a href="https://github.com/mihtoa" TARGET="_blank" >@mihtoa</a>
     </footer>
-    <script src="lib/js/jquery.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/js/lightbox.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 </html>

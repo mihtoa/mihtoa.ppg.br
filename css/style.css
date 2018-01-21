@@ -75,7 +75,7 @@ header span a:hover {
 #portfolio {
     margin-top: 0px;
 }
-#portfolio img {
+#portfolio .icone img {
     margin-left: 105px;
 }
 #portfolio p {
@@ -93,6 +93,13 @@ header span a:hover {
     font-weight: bolder;
     margin-left: 165px;
     margin-top: -30px;
+}
+#portfolio .gallery {
+    margin-left: 122px;
+    margin-right: 122px;
+}
+#portfolio .gallery img {
+    width: 100px;
 }
 #aboutme {
     width: 100%;
