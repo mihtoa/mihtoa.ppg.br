@@ -1,5 +1,5 @@
 body {
-    background-color: #ff5845;
+    background-color: #f2e5cb;
 }
 header {
     background-color: #fff;
@@ -86,13 +86,13 @@ header span a:hover {
     margin-right: 122px;
     font-size: 14px;
     font-family: Open-Sans;
-    color: #fff;
+    color: #ff5845;
     margin-left: 122px;
 }
 #portfolio h1 {
     font-size: 40px;
     font-family: desmond;
-    color: #fff;
+    color: #ff5845;
     font-weight: bolder;
     margin-left: 165px;
     margin-top: -30px;
@@ -162,7 +162,7 @@ header span a:hover {
 }
 #imagem-logo img {
     margin-left: 70%;
-    margin-bottom: -265px;
+    margin-bottom: -525px;
     height: 300px;
 }
 footer {
