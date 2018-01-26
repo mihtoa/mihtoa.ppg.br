@@ -87,7 +87,6 @@ header span a:hover {
     font-size: 14px;
     font-family: Open-Sans;
     color: #ff5845;
-    margin-left: 122px;
 }
 #portfolio h1 {
     font-size: 40px;
@@ -98,12 +97,85 @@ header span a:hover {
     margin-top: -30px;
 }
 #portfolio .gallery {
-    margin-left: 122px;
-    margin-right: 122px;
+    margin-left: 117px;
+    margin-right: 117px;
 }
 #portfolio .gallery img {
     width: 150px;
     height: auto;
+    border-width: medium;
+    border-style: solid;
+    border-color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+}
+#manipulação .icone img {
+    margin-left: 105px;
+}
+#manipulação p {
+    margin-left: 122px;
+    margin-right: 122px;
+    font-size: 14px;
+    font-family: Open-Sans;
+    color: #ff5845;
+}
+#manipulação h1 {
+    font-size: 40px;
+    font-family: desmond;
+    color: #ff5845;
+    font-weight: bolder;
+    margin-left: 165px;
+    margin-top: -30px;
+}
+#manipulação .gallery {
+    margin-left: 117px;
+    margin-right: 117px;
+}
+#manipulação .gallery img {
+    width: 150px;
+    height: auto;
+    border-width: medium;
+    border-style: solid;
+    border-color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+}
+#desenhos {
+    margin-top: 0px;
+}
+#desenhos .icone img {
+    margin-left: 105px;
+}
+#desenhos p {
+    margin-left: 122px;
+    margin-right: 122px;
+    font-size: 14px;
+    font-family: Open-Sans;
+    color: #ff5845;
+}
+#desenhos h1 {
+    font-size: 40px;
+    font-family: desmond;
+    color: #ff5845;
+    font-weight: bolder;
+    margin-left: 165px;
+    margin-top: -30px;
+}
+#desenhos .gallery {
+    margin-left: 117px;
+    margin-right: 117px;
+}
+#desenhos .gallery img {
+    width: 150px;
+    height: auto;
+    border-width: medium;
+    border-style: solid;
+    border-color: #ffF;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 12px;
 }
 #aboutme {
     width: 100%;
@@ -131,30 +203,6 @@ header span a:hover {
 }
 #aboutme a {
     /* margin-left: 122px; */
-}
-#skills {
-    width: 100%;
-    height: 300px;
-    margin-top: 0px;
-}
-#skills img {
-    margin-left: 105px;
-    margin-top: 20px;
-}
-#skills p {
-    margin-left: 122px;
-    margin-right: 122px;
-    font-size: 14px;
-    font-family: Open-Sans;
-    color: #fff;
-}
-#skills h1 {
-    margin-left: 165px;
-    font-size: 40px;
-    font-family: desmond;
-    color: #fff;
-    font-weight: bolder;
-    margin-top: -30px;
 }
 .meio {
     height: 100px;
