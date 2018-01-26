@@ -1,5 +1,5 @@
-# mihtoa.ppg.br
+# mihtoa.github.io
 
 Personal Website
 
-http://mihtoa.ppg.br/
+http://mihtoa.github.io
