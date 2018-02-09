@@ -24,6 +24,7 @@ header span a:hover {
     text-decoration: none;
     color: #2b2525;
 }
+
 .menu {
     margin-top: -62px;
     margin-left: 500px;
@@ -48,9 +49,7 @@ header span a:hover {
 .menu ul li a:hover {
     color: #2b2525;
 }
-.menu:hover ul li {
-    background-color: #2b2525;
-}
+
 .jumbotron {
     background-image: url("/layout/fundo3.jpg");
     background-repeat: no-repeat;
@@ -106,73 +105,6 @@ header span a:hover {
     border-width: medium;
     border-style: solid;
     border-color: #fff;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 12px;
-}
-#manipulação .icone img {
-    margin-left: 105px;
-}
-#manipulação p {
-    margin-left: 122px;
-    margin-right: 122px;
-    font-size: 14px;
-    font-family: Open-Sans;
-    color: #ff5845;
-}
-#manipulação h1 {
-    font-size: 40px;
-    font-family: desmond;
-    color: #ff5845;
-    font-weight: bolder;
-    margin-left: 165px;
-    margin-top: -30px;
-}
-#manipulação .gallery {
-    margin-left: 117px;
-    margin-right: 117px;
-}
-#manipulação .gallery img {
-    width: 150px;
-    height: auto;
-    border-width: medium;
-    border-style: solid;
-    border-color: #fff;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 12px;
-}
-#desenhos {
-    margin-top: 0px;
-}
-#desenhos .icone img {
-    margin-left: 105px;
-}
-#desenhos p {
-    margin-left: 122px;
-    margin-right: 122px;
-    font-size: 14px;
-    font-family: Open-Sans;
-    color: #ff5845;
-}
-#desenhos h1 {
-    font-size: 40px;
-    font-family: desmond;
-    color: #ff5845;
-    font-weight: bolder;
-    margin-left: 165px;
-    margin-top: -30px;
-}
-#desenhos .gallery {
-    margin-left: 117px;
-    margin-right: 117px;
-}
-#desenhos .gallery img {
-    width: 150px;
-    height: auto;
-    border-width: medium;
-    border-style: solid;
-    border-color: #ffF;
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 12px;
