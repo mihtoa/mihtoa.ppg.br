@@ -112,11 +112,14 @@ footer {
     margin-bottom: 1em; }
 
 @media (max-width: 1080px) {
-  #bg h1 {
-    font-size: 4em; }
-  #bg p {
-    width: 18em;
-    font-size: 0.9em; }
+  #bg {
+    height: 15em; }
+    #bg h1 {
+      font-size: 4em; }
+    #bg p {
+      width: 18em;
+      font-size: 0.9em;
+      padding: 0 10%; }
   #aboutme #imagem-logo img {
     float: right;
     height: 8em;

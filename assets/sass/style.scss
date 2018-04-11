@@ -144,12 +144,14 @@ footer {
 @media (max-width: 1080px) {
 
   #bg {
+    height: 15em;
     h1 {
       font-size: 4em;
     }
     p {
       width: 18em;
       font-size: 0.9em;
+      padding: 0 10%;
     }
   }
 
