@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Gudea");
+html, body {
+  height: 100%; }
+
+body {
+  background-image: url("../img/bg_dark.png");
+  background-size: 3%;
+  color: #2b2525;
+  font-family: 'Gudea', sans-serif; }
+
+.extern {
+  display: flex;
+  height: 100%; }
+  .extern > .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.15)); }
+    .extern > .content > .div100 {
+      width: 600px;
+      text-align: center;
+      margin-top: -150px; }
+    .extern > .content > .box-2 {
+      width: 270px;
+      padding: 15px;
+      position: relative;
+      text-align: right;
+      margin-top: -40px; }
+      .extern > .content > .box-2 > p {
+        font-size: 14px;
+        line-height: 8px; }
+      .extern > .content > .box-2 > .hr {
+        border-top: 2px solid #ff5845;
+        margin-left: 200px; }
+    .extern > .content > .box-1 {
+      padding: 15px;
+      width: 270px;
+      margin-top: -40px; }
+      .extern > .content > .box-1 > .bar {
+        width: 200px;
+        height: 5px;
+        margin-bottom: 50px;
+        background: #ff5845; }
+      .extern > .content > .box-1 > .text > .h1 {
+        letter-spacing: 2px;
+        font-weight: 900; }
+      .extern > .content > .box-1 > .text > .links {
+        margin: 20px 0; }
+      .extern > .content > .box-1 > .text > .links a {
+        text-decoration: none;
+        color: #2b2525;
+        padding: 4px; }
+      .extern > .content > .box-1 > .text > .links a:hover {
+        color: #ff5845; }
+      .extern > .content > .box-1 > .text > .social .icons {
+        font-size: 22px;
+        text-decoration: none;
+        margin: 10px 0; }
+      .extern > .content > .box-1 > .text > .social {
+        margin: 10px 0; }
+      .extern > .content > .box-1 > .text > .social .icons a {
+        vertical-align: middle;
+        padding: 0 3px;
+        text-decoration: none;
+        color: #2b2525; }
+      .extern > .content > .box-1 > .text > .social .icons a:hover {
+        color: #ff5845; }
+      .extern > .content > .box-1 > .text > .social .detail {
+        color: #ff5845;
+        font-size: 14px;
+        font-weight: bold; }
+
+#foto {
+  max-width: 200px;
+  height: auto;
+  border: 10px white solid;
+  border-radius: 120px;
+  background-color: white; }
+
+#logo {
+  max-width: 212px;
+  margin-top: -8px; }
+
+#simbol {
+  max-width: 500px;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+footer {
+  padding: 10px;
+  font-size: 12px;
+  text-align: center; }
+
+@media (max-width: 900px) {
+  .extern > .content > .box-1, .extern > .content > .box-2 {
+    width: auto;
+    padding: 0;
+    text-align: center;
+    margin-top: 0; }
+  footer {
+    display: none; }
+  .extern > .content {
+    display: block !important;
+    width: auto; }
+  .extern > .content > .div100 {
+    width: auto;
+    margin-bottom: 15px; }
+  .extern > .content > .box-2 > .hr {
+    margin-left: 0; } }

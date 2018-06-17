@@ -1,0 +1,50 @@
+// Colors
+$Dark: #2b2525;
+$Light: #f2e5cb;
+$Orange: #ff5845;
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+
+// General
+html, body {
+  height: 100%;
+}
+body {
+  background-image: url("../img/bg_dark.png");
+  background-size: 3%;
+  color: $Dark;
+  font-family: 'Gudea', sans-serif;
+}
+
+// Content
+@import 'content';
+
+// IDS
+#foto {
+  max-width: 200px;
+  height: auto;
+  border: 10px white solid;
+  border-radius: 120px;
+  background-color: white;
+}
+#logo {
+  max-width: 212px;
+  margin-top: -8px;
+}
+#simbol {
+  max-width: 500px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+// Footer
+footer {
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+// Responsive
+@import 'responsive';

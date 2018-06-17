@@ -1,0 +1,91 @@
+
+.extern {
+  display: flex;
+  height: 100%;
+  > .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.15));
+    > .div100 {
+      width: 600px;
+      text-align: center;
+      margin-top: -150px;
+    }
+    > .box-2 {
+      width: 270px;
+      padding: 15px;
+      position: relative;
+      text-align: right;
+      margin-top: -40px;
+      > p {
+        font-size: 14px;
+        line-height: 8px;
+      }
+      > .hr {
+        border-top: 2px solid #ff5845;
+        margin-left: 200px;
+      }
+    }
+    > .box-1 {
+      padding: 15px;
+      width: 270px;
+      margin-top: -40px;
+      > .bar {
+        width: 200px;
+        height: 5px;
+        margin-bottom: 50px;
+        background: $Orange;
+      }
+      > .text {
+        > .h1 {
+          letter-spacing: 2px;
+          font-weight: 900;
+        }
+        > .links {
+          margin: 20px 0;
+        }
+        > .links a {
+          text-decoration: none;
+          color: $Dark;
+          padding: 4px;
+        }
+        > .links a:hover {
+          color: $Orange;
+        }
+        > .social .icons {
+          font-size: 22px;
+          text-decoration: none;
+          margin: 10px 0;
+        }
+        > .social {
+          margin: 10px 0;
+        }
+        > .social .icons a {
+          vertical-align: middle;
+          padding: 0 3px;
+          text-decoration: none;
+          color: $Dark;
+        }
+        > .social .icons a:hover {
+          color: $Orange;
+        }
+        > .social .detail {
+          color: $Orange;
+          font-size: 14px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
