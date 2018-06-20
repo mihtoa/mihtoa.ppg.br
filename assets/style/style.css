@@ -8,6 +8,11 @@ body {
   color: #2b2525;
   font-family: 'Gudea', sans-serif; }
 
+.detail {
+  color: #ff5845;
+  font-size: 14px;
+  font-weight: bold; }
+
 .extern {
   display: flex;
   height: 100%; }
@@ -57,22 +62,18 @@ body {
       .extern > .content > .box-1 > .text > .links a:hover {
         color: #ff5845; }
       .extern > .content > .box-1 > .text > .social .icons {
-        font-size: 22px;
+        font-size: 16px;
         text-decoration: none;
         margin: 10px 0; }
       .extern > .content > .box-1 > .text > .social {
         margin: 10px 0; }
       .extern > .content > .box-1 > .text > .social .icons a {
         vertical-align: middle;
-        padding: 0 3px;
+        padding: 0 2px;
         text-decoration: none;
         color: #2b2525; }
       .extern > .content > .box-1 > .text > .social .icons a:hover {
         color: #ff5845; }
-      .extern > .content > .box-1 > .text > .social .detail {
-        color: #ff5845;
-        font-size: 14px;
-        font-weight: bold; }
 
 #foto {
   max-width: 200px;
@@ -92,11 +93,14 @@ body {
   right: 0; }
 
 footer {
+  color: white;
   padding: 10px;
   font-size: 12px;
   text-align: center; }
 
 @media (max-width: 900px) {
+  .extern {
+    margin-top: 40px; }
   .extern > .content > .box-1, .extern > .content > .box-2 {
     width: auto;
     padding: 0;

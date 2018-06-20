@@ -16,6 +16,11 @@ body {
   color: $Dark;
   font-family: 'Gudea', sans-serif;
 }
+.detail {
+  color: $Orange;
+  font-size: 14px;
+  font-weight: bold;
+}
 
 // Content
 @import 'content';
@@ -41,6 +46,7 @@ body {
 
 // Footer
 footer {
+  color: white;
   padding: 10px;
   font-size: 12px;
   text-align: center;

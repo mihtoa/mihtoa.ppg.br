@@ -58,7 +58,7 @@
           color: $Orange;
         }
         > .social .icons {
-          font-size: 22px;
+          font-size: 16px;
           text-decoration: none;
           margin: 10px 0;
         }
@@ -67,17 +67,12 @@
         }
         > .social .icons a {
           vertical-align: middle;
-          padding: 0 3px;
+          padding: 0 2px;
           text-decoration: none;
           color: $Dark;
         }
         > .social .icons a:hover {
           color: $Orange;
-        }
-        > .social .detail {
-          color: $Orange;
-          font-size: 14px;
-          font-weight: bold;
         }
       }
     }
