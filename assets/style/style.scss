@@ -2,14 +2,20 @@
 $Dark: #2b2525;
 $Light: #f2e5cb;
 $Orange: #ff5845;
+$Brown: #4d4842;
 
 // Font
 @import url('https://fonts.googleapis.com/css?family=Gudea');
 
 // General
+html {
+  background-image: url("../img/html-bg.jpg");
+}
 body {
-  background-image: url("../img/bg_dark.png");
-  background-size: 3%;
+  background-image: url("../img/pattern1.png"), url("../img/pattern2.png"), url("../img/pattern3.png");
+  animation: backgroundmoving 120s linear 0s infinite reverse;
+  //background-color: $Orange;
+  background-size: 20%;
   color: $Dark;
   font-family: 'Gudea', sans-serif;
 }
@@ -43,16 +49,23 @@ body {
 
 // Footer
 footer {
+  grid-area: footer;
   color: white;
   padding: 8px;
   margin-bottom: 5px;
   font-size: 12px;
   text-align: center;
   letter-spacing: 1px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
+}
+
+// Animation
+@keyframes backgroundmoving {
+  from {
+    background-position-x: 0%, 50%, 100%
+  }
+  to {
+    background-position-x: 520%, 330%, 180%
+  }
 }
 
 // Responsive
