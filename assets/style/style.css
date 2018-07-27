@@ -1,27 +1,24 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Gudea");
 html {
-  background-image: url("../img/html-bg.jpg"); }
+  background-image: url("../img/html-bg.jpg");
+  background-size: 100% 150%;
+  height: 100%; }
 
 body {
   background-image: url("../img/pattern1.png"), url("../img/pattern2.png"), url("../img/pattern3.png");
   animation: backgroundmoving 120s linear 0s infinite reverse;
   background-size: 20%;
   color: #2b2525;
-  font-family: 'Gudea', sans-serif; }
-
-.detail {
-  color: #ff5845;
-  font-size: 14px;
-  font-weight: bold; }
+  font-family: 'Gudea', sans-serif;
+  display: flex;
+  height: 95%;
+  overflow: hidden; }
 
 .extern {
-  display: grid;
-  grid-template-rows: 50px 450px 1fr;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-areas: 'header header header' 'content content content' 'footer footer footer'; }
+  max-height: 500px;
+  margin: auto; }
   .extern > .content {
-    grid-area: content;
     display: flex;
     flex-wrap: wrap;
     width: 600px;
@@ -44,6 +41,11 @@ body {
       .extern > .content > .what-im > p {
         font-size: 14px;
         line-height: 8px; }
+      .extern > .content > .what-im > p::after {
+        content: ' ●';
+        color: #ff5845;
+        font-size: 14px;
+        font-weight: bold; }
       .extern > .content > .what-im > .hr {
         border-top: 2px solid #ff5845;
         margin-left: 200px; }
@@ -103,11 +105,7 @@ body {
   bottom: 0;
   right: 0; }
 
-header {
-  grid-area: header; }
-
 footer {
-  grid-area: footer;
   color: white;
   padding: 8px;
   margin-bottom: 5px;
@@ -121,19 +119,30 @@ footer {
   to {
     background-position-x: 520%, 330%, 180%; } }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
+  html {
+    background: #ff5845; }
+  body {
+    background-size: 50%; }
   .extern {
     margin-top: 40px; }
-  .extern > .content > .box-1, .extern > .content > .what-im {
+  .extern > .content > .information,
+  .extern > .content > .what-im {
     width: auto;
     padding: 0;
     text-align: center;
     margin-top: 0; }
   .extern > .content {
     display: block !important;
+    margin-top: 120px;
+    border-radius: 0;
     width: auto; }
-  .extern > .content > .content_image {
-    width: auto;
-    margin-bottom: 15px; }
+  .extern > .content > .content__image {
+    width: 290px; }
+  .extern > .content > .information > .text > .social .icons {
+    font-size: 22px; }
   .extern > .content > .what-im > .hr {
-    margin-left: 0; } }
+    width: 40px;
+    margin: auto; }
+  .extern > .content > .what-im > p::after {
+    content: ' '; } }

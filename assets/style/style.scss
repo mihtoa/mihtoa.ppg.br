@@ -10,19 +10,18 @@ $Brown: #4d4842;
 // General
 html {
   background-image: url("../img/html-bg.jpg");
+  background-size: 100% 150%;
+  height: 100%;
 }
 body {
   background-image: url("../img/pattern1.png"), url("../img/pattern2.png"), url("../img/pattern3.png");
   animation: backgroundmoving 120s linear 0s infinite reverse;
-  //background-color: $Orange;
   background-size: 20%;
   color: $Dark;
   font-family: 'Gudea', sans-serif;
-}
-.detail {
-  color: $Orange;
-  font-size: 14px;
-  font-weight: bold;
+  display: flex;
+  height: 95%;
+  overflow: hidden;
 }
 
 // Content
@@ -47,14 +46,8 @@ body {
   right: 0;
 }
 
-// Header
-header {
-  grid-area: header;
-}
-
 // Footer
 footer {
-  grid-area: footer;
   color: white;
   padding: 8px;
   margin-bottom: 5px;
