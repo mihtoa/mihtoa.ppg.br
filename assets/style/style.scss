@@ -47,6 +47,11 @@ body {
   right: 0;
 }
 
+// Header
+header {
+  grid-area: header;
+}
+
 // Footer
 footer {
   grid-area: footer;

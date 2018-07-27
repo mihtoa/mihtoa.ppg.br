@@ -2,7 +2,7 @@
   .extern {
     margin-top: 40px;
   }
-  .extern > .content > .box-1, .extern > .content > .box-2 {
+  .extern > .content > .box-1, .extern > .content > .what-im {
     width: auto;
     padding: 0;
     text-align: center;
@@ -12,11 +12,11 @@
     display: block!important;
     width: auto;
   }
-  .extern > .content > .div100 {
+  .extern > .content > .content_image {
     width: auto;
     margin-bottom: 15px;
   }
-  .extern > .content > .box-2 > .hr {
+  .extern > .content > .what-im > .hr {
     margin-left: 0;
   }
 }

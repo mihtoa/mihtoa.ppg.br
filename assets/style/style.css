@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Gudea");
 html {
   background-image: url("../img/html-bg.jpg"); }
@@ -15,11 +16,10 @@ body {
   font-weight: bold; }
 
 .extern {
-  padding-top: calc(6% + 20px);
   display: grid;
-  grid-template-rows: 100px 600px 50px;
+  grid-template-rows: 50px 450px 1fr;
   grid-template-columns: 1fr 3fr 1fr;
-  grid-template-areas: 'content content content' 'content content content' 'footer footer footer'; }
+  grid-template-areas: 'header header header' 'content content content' 'footer footer footer'; }
   .extern > .content {
     grid-area: content;
     display: flex;
@@ -29,56 +29,60 @@ body {
     padding: 20px;
     background: #fff;
     border-radius: 10px;
+    margin-top: 150px;
     filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.15)); }
-    .extern > .content > .image {
+    .extern > .content > .content__image {
       width: 600px;
       text-align: center;
       margin-top: -150px; }
-    .extern > .content > .box-2 {
+    .extern > .content > .what-im {
       width: 270px;
       padding: 15px;
       position: relative;
       text-align: right;
       margin-top: -40px; }
-      .extern > .content > .box-2 > p {
+      .extern > .content > .what-im > p {
         font-size: 14px;
         line-height: 8px; }
-      .extern > .content > .box-2 > .hr {
+      .extern > .content > .what-im > .hr {
         border-top: 2px solid #ff5845;
         margin-left: 200px; }
-    .extern > .content > .box-1 {
+    .extern > .content > .information {
       padding: 15px;
       width: 270px;
       margin-top: -40px; }
-      .extern > .content > .box-1 > .bar {
+      .extern > .content > .information > .bar {
         width: 200px;
         height: 5px;
         margin-bottom: 50px;
         background: #ff5845; }
-      .extern > .content > .box-1 > .text > .h1 {
+      .extern > .content > .information > .text > .h1 {
         letter-spacing: 2px;
         font-weight: 900; }
-      .extern > .content > .box-1 > .text > .links {
+      .extern > .content > .information > .text > .links {
         margin: 20px 0; }
-      .extern > .content > .box-1 > .text > .links a {
+      .extern > .content > .information > .text > .links a {
         text-decoration: none;
         color: #2b2525;
-        padding: 4px; }
-      .extern > .content > .box-1 > .text > .links a:hover {
+        padding: 4px;
+        transition: all 450ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+      .extern > .content > .information > .text > .links a:hover {
         color: #ff5845;
-        transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
-      .extern > .content > .box-1 > .text > .social .icons {
+        border-bottom: 1px solid #ff5845; }
+      .extern > .content > .information > .text > .links a i::after {
+        content: ' '; }
+      .extern > .content > .information > .text > .social .icons {
         font-size: 16px;
         text-decoration: none;
         margin: 10px 0; }
-      .extern > .content > .box-1 > .text > .social {
+      .extern > .content > .information > .text > .social {
         margin: 10px 0; }
-      .extern > .content > .box-1 > .text > .social .icons a {
+      .extern > .content > .information > .text > .social .icons a {
         vertical-align: middle;
         padding: 0 2px;
         text-decoration: none;
         color: #2b2525; }
-      .extern > .content > .box-1 > .text > .social .icons a:hover {
+      .extern > .content > .information > .text > .social .icons a:hover {
         color: #ff5845;
         transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
 
@@ -99,6 +103,9 @@ body {
   bottom: 0;
   right: 0; }
 
+header {
+  grid-area: header; }
+
 footer {
   grid-area: footer;
   color: white;
@@ -117,7 +124,7 @@ footer {
 @media (max-width: 900px) {
   .extern {
     margin-top: 40px; }
-  .extern > .content > .box-1, .extern > .content > .box-2 {
+  .extern > .content > .box-1, .extern > .content > .what-im {
     width: auto;
     padding: 0;
     text-align: center;
@@ -125,8 +132,8 @@ footer {
   .extern > .content {
     display: block !important;
     width: auto; }
-  .extern > .content > .div100 {
+  .extern > .content > .content_image {
     width: auto;
     margin-bottom: 15px; }
-  .extern > .content > .box-2 > .hr {
+  .extern > .content > .what-im > .hr {
     margin-left: 0; } }
