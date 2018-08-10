@@ -23,19 +23,27 @@
       position: relative;
       text-align: right;
       margin-top: -40px;
-      > p {
-        font-size: 14px;
-        line-height: 8px;
-      }
-      > p::after {
-        content: ' ●';
-        color: $Orange;
-        font-size: 14px;
-        font-weight: bold;
-      }
       > .hr {
         border-top: 2px solid #ff5845;
         margin-left: 200px;
+      }
+      > .social .icons {
+        font-size: 22px;
+        text-decoration: none;
+        margin: 10px 0;
+      }
+      > .social {
+        margin: 10px 0;
+      }
+      > .social .icons a {
+        vertical-align: middle;
+        padding: 0 2px;
+        text-decoration: none;
+        color: $Dark;
+      }
+      > .social .icons a:hover {
+        color: $Orange;
+        transition: (all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55));
       }
     }
     > .information {
@@ -49,6 +57,20 @@
         background: $Orange;
       }
       > .text {
+        > p {
+          font-size: 14px;
+          line-height: 8px;
+        }
+        > p::before {
+          content: '● ';
+          color: $Orange;
+          font-size: 14px;
+          font-weight: bold;
+        }
+        > .hr {
+          border-top: 2px solid #ff5845;
+          margin-right: 200px;
+        }
         > .h1 {
           letter-spacing: 2px;
           font-weight: 900;
@@ -59,33 +81,16 @@
         > .links a {
           text-decoration: none;
           color: $Dark;
-          padding: 4px;
+          padding: 4px 6px;
           transition: (all 450ms cubic-bezier(0.68, -0.55, 0.265, 1.55));
         }
         > .links a:hover {
           color: $Orange;
           border-bottom: 1px solid #ff5845;
+          cursor: pointer;
         }
         > .links a i::after {
           content: ' ';
-        }
-        > .social .icons {
-          font-size: 16px;
-          text-decoration: none;
-          margin: 10px 0;
-        }
-        > .social {
-          margin: 10px 0;
-        }
-        > .social .icons a {
-          vertical-align: middle;
-          padding: 0 2px;
-          text-decoration: none;
-          color: $Dark;
-        }
-        > .social .icons a:hover {
-          color: $Orange;
-          transition: (all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55));
         }
       }
     }

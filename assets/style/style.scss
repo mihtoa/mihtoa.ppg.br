@@ -5,7 +5,7 @@ $Orange: #ff5845;
 $Brown: #4d4842;
 
 // Font
-@import url('https://fonts.googleapis.com/css?family=Gudea');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 // General
 html {
@@ -18,7 +18,7 @@ body {
   animation: backgroundmoving 120s linear 0s infinite reverse;
   background-size: 20%;
   color: $Dark;
-  font-family: 'Gudea', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   height: 95%;
   overflow: hidden;
@@ -68,3 +68,12 @@ footer {
 
 // Responsive
 @import 'responsive';
+
+// Tests
+.button1 {
+  background-color: dimgray;
+  border: none;
+  padding: 7px 14px;
+  color: white;
+}
+

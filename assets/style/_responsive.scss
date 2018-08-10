@@ -5,6 +5,9 @@
   body {
     background-size: 50%;
   }
+  #logo {
+    margin: 10px 0;
+  }
   .extern {
     margin-top: 40px;
   }
@@ -27,7 +30,8 @@
   .extern > .content > .information > .text > .social .icons {
     font-size: 22px;
   }
-  .extern > .content > .what-im > .hr {
+  .extern > .content > .what-im > .hr,
+  .extern > .content > .information > .text > .hr {
     width: 40px;
     margin: auto;
   }
