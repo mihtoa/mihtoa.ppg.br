@@ -123,10 +123,6 @@ footer {
     background-position-x: 520%, 330%, 180%; } }
 
 @media (max-width: 700px) {
-  html {
-    background: #ff5845; }
-  body {
-    background-size: 50%; }
   #logo {
     margin: 10px 0; }
   .extern {
