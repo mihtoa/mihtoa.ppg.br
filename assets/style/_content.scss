@@ -20,10 +20,9 @@
     > .what-im {
       width: 270px;
       padding: 15px;
-      position: relative;
       text-align: right;
       margin-top: -40px;
-      > .hr {
+      > hr {
         border-top: 2px solid #ff5845;
         margin-left: 200px;
       }
@@ -50,12 +49,6 @@
       padding: 15px;
       width: 270px;
       margin-top: -40px;
-      > .bar {
-        width: 200px;
-        height: 5px;
-        margin-bottom: 50px;
-        background: $Orange;
-      }
       > .text {
         > p {
           font-size: 14px;
@@ -67,13 +60,9 @@
           font-size: 14px;
           font-weight: bold;
         }
-        > .hr {
+        > hr {
           border-top: 2px solid #ff5845;
           margin-right: 200px;
-        }
-        > .h1 {
-          letter-spacing: 2px;
-          font-weight: 900;
         }
         > .links {
           margin: 20px 0;

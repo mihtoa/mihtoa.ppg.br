@@ -11,8 +11,16 @@ body {
   color: #2b2525;
   font-family: 'Open Sans', sans-serif;
   display: flex;
-  height: 95%;
+  height: 95vh;
   overflow: hidden; }
+
+footer {
+  color: white;
+  padding: 8px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px; }
 
 .extern {
   max-height: 500px;
@@ -34,10 +42,9 @@ body {
     .extern > .content > .what-im {
       width: 270px;
       padding: 15px;
-      position: relative;
       text-align: right;
       margin-top: -40px; }
-      .extern > .content > .what-im > .hr {
+      .extern > .content > .what-im > hr {
         border-top: 2px solid #ff5845;
         margin-left: 200px; }
       .extern > .content > .what-im > .social .icons {
@@ -58,11 +65,6 @@ body {
       padding: 15px;
       width: 270px;
       margin-top: -40px; }
-      .extern > .content > .information > .bar {
-        width: 200px;
-        height: 5px;
-        margin-bottom: 50px;
-        background: #ff5845; }
       .extern > .content > .information > .text > p {
         font-size: 14px;
         line-height: 8px; }
@@ -71,12 +73,9 @@ body {
         color: #ff5845;
         font-size: 14px;
         font-weight: bold; }
-      .extern > .content > .information > .text > .hr {
+      .extern > .content > .information > .text > hr {
         border-top: 2px solid #ff5845;
         margin-right: 200px; }
-      .extern > .content > .information > .text > .h1 {
-        letter-spacing: 2px;
-        font-weight: 900; }
       .extern > .content > .information > .text > .links {
         margin: 20px 0; }
       .extern > .content > .information > .text > .links a {
@@ -108,14 +107,6 @@ body {
   bottom: 0;
   right: 0; }
 
-footer {
-  color: white;
-  padding: 8px;
-  margin-bottom: 5px;
-  font-size: 12px;
-  text-align: center;
-  letter-spacing: 1px; }
-
 @keyframes backgroundmoving {
   from {
     background-position-x: 0%, 50%, 100%; }
@@ -127,30 +118,24 @@ footer {
     margin: 10px 0; }
   .extern {
     margin-top: 40px; }
-  .extern > .content > .information,
-  .extern > .content > .what-im {
-    width: auto;
-    padding: 0;
-    text-align: center;
-    margin-top: 0; }
-  .extern > .content {
-    display: block !important;
-    margin-top: 120px;
-    border-radius: 0;
-    width: auto; }
-  .extern > .content > .content__image {
-    width: 290px; }
-  .extern > .content > .information > .text > .social .icons {
-    font-size: 22px; }
-  .extern > .content > .what-im > .hr,
-  .extern > .content > .information > .text > .hr {
-    width: 40px;
-    margin: auto; }
-  .extern > .content > .what-im > p::after {
-    content: ' '; } }
-
-.button1 {
-  background-color: dimgray;
-  border: none;
-  padding: 7px 14px;
-  color: white; }
+    .extern > .content {
+      display: block;
+      margin-top: 120px;
+      border-radius: 0;
+      width: auto; }
+      .extern > .content > .content__image {
+        width: 290px; }
+      .extern > .content > .information,
+      .extern > .content > .what-im {
+        width: auto;
+        padding: 0;
+        text-align: center;
+        margin-top: 0; }
+      .extern > .content > .information > .text > .social > .icons {
+        font-size: 22px; }
+      .extern > .content > .information > .text > hr {
+        width: 40px;
+        margin: auto; }
+      .extern > .content > .what-im > hr {
+        width: 40px;
+        margin: auto; } }

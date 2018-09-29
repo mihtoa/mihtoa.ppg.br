@@ -19,8 +19,16 @@ body {
   color: $Dark;
   font-family: 'Open Sans', sans-serif;
   display: flex;
-  height: 95%;
+  height: 95vh;
   overflow: hidden;
+}
+footer {
+  color: white;
+  padding: 8px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 // Content
@@ -45,16 +53,6 @@ body {
   right: 0;
 }
 
-// Footer
-footer {
-  color: white;
-  padding: 8px;
-  margin-bottom: 5px;
-  font-size: 12px;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
 // Animation
 @keyframes backgroundmoving {
   from {
@@ -68,11 +66,4 @@ footer {
 // Responsive
 @import 'responsive';
 
-// Tests
-.button1 {
-  background-color: dimgray;
-  border: none;
-  padding: 7px 14px;
-  color: white;
-}
 

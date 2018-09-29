@@ -1,37 +1,32 @@
 <!doctype HTML>
 <html>
 <head>
-  <script>
-    (function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-    'gtm.start':
-    new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-THRWWKN');
-  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="cor em hexadecimal">
+  <meta name="theme-color" content="#ff5845">
   <title>@mihtoa</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style/style.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113135757-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113135757-1');
+  </script>
 </head>
 <body>
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THRWWKN" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
   <div class="extern">
     <div class="content">
       <div class="content__image">
         <img id="foto" src="assets/img/foto.png" />
       </div>
-      <div class="line"></div>
       <div class="information">
         <div class="text">
           <img id="logo" src="assets/img/logo2.png" width="180" />
-          <hr class="hr" />
+          <hr />
           <p>Front-end Web Developer</p>
           <div class="links">
             <a id="curriculo" href="assets/pdf/mihtoa_cv.pdf">
@@ -57,12 +52,12 @@
             </a>
           </span>
         </div>
-        <hr class="hr" />
-        <p class="email">oi@mihtoa.ppg.br</p>
+        <hr />
+        <p>oi@mihtoa.ppg.br</p>
       </div>
     </div>
     <footer>
-      <div class="copyright">Copyright © 2018 | @mihtoa</div>
+      <span>Copyright © 2018 | @mihtoa</span>
     </footer>
   </div>
 </body>

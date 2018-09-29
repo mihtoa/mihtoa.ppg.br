@@ -4,32 +4,36 @@
   }
   .extern {
     margin-top: 40px;
-  }
-  .extern > .content > .information,
-  .extern > .content > .what-im {
-    width: auto;
-    padding: 0;
-    text-align: center;
-    margin-top: 0;
-  }
-  .extern > .content {
-    display: block!important;
-    margin-top: 120px;
-    border-radius: 0;
-    width: auto;
-  }
-  .extern > .content > .content__image {
-    width: 290px;
-  }
-  .extern > .content > .information > .text > .social .icons {
-    font-size: 22px;
-  }
-  .extern > .content > .what-im > .hr,
-  .extern > .content > .information > .text > .hr {
-    width: 40px;
-    margin: auto;
-  }
-  .extern > .content > .what-im > p::after {
-    content: ' ';
+    > .content {
+      display: block;
+      margin-top: 120px;
+      border-radius: 0;
+      width: auto;
+      > .content__image {
+        width: 290px;
+      }
+      > .information,
+      > .what-im {
+        width: auto;
+        padding: 0;
+        text-align: center;
+        margin-top: 0;
+      }
+      > .information > .text {
+        > .social > .icons {
+          font-size: 22px;
+        }
+        > hr {
+          width: 40px;
+          margin: auto;
+        }
+      }
+      > .what-im {
+        > hr {
+          width: 40px;
+          margin: auto;
+        }
+      }
+    }
   }
 }
