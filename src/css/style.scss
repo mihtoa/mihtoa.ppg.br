@@ -125,6 +125,11 @@ a {
             }
           }
         }
+        .email {
+          &::after {
+            content: 'mitoe\40live.com';
+          }
+        }
       }
     }
   }
