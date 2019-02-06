@@ -1,64 +1,60 @@
 <!doctype HTML>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ff5845">
-  <title>@mihtoa</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/style/style.css" />
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113135757-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ff5845">
+    <title>@mihtoa</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="assets/style/style.css" /> -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113135757-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-113135757-1');
-  </script>
-</head>
-<body>
-  <div class="extern">
-    <div class="content">
-      <div class="content__image">
-        <img id="foto" src="assets/img/foto.png" />
-      </div>
-      <div class="information">
-        <div class="text">
-          <img id="logo" src="assets/img/logo2.png" width="180" />
-          <hr />
-          <p>Front-end Web Developer</p>
-          <div class="links">
-            <a id="curriculo" href="assets/pdf/mihtoa_cv.pdf">
+      gtag('config', 'UA-113135757-1');
+    </script>
+  </head>
+  <body>
+    <section id="main-infos">
+      <div class="block-infos">
+        <div class="photo">
+          <img src="dist/img/foto.png" alt="Milene Toazza" />
+        </div>
+        <div class="description">
+          <div class="resume">
+            <img class="logo" src="dist/img/logo2.png" role="logo" />
+            <h3 class="title"><div class="ball-detail"></div>Front-end Web Developer</h3>
+            <a class="curriculum" href="mihtoa_cv.pdf">
               <i class="fas fa-user-circle"></i> Resume
             </a>
           </div>
+          <div class="social">
+            <div class="wrapper-social">
+              <a target="_blank" href="https://www.linkedin.com/in/mihtoa">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a target="_blank" href="https://github.com/mihtoa">
+                <i class="fab fa-github"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/mihtoa">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a target="_blank" href="https://www.instagram.com/mihtoa">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <a href="mailto:mitoe@live.com">mitoe@live.com</a>
+          </div>
         </div>
       </div>
-      <div class="what-im">
-        <div class="social">
-          <span class="icons">
-            <a target="_blank" href="https://www.linkedin.com/in/mihtoa">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a target="_blank" href="https://github.com/mihtoa">
-              <i class="fab fa-github"></i>
-            </a>
-            <a target="_blank" href="https://www.facebook.com/mihtoa">
-              <i class="fab fa-facebook"></i>
-            </a>
-            <a target="_blank" href="https://www.instagram.com/mihtoa">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </span>
-        </div>
-        <hr />
-        <p>mitoe@live.com</p>
-      </div>
-    </div>
-    <footer>
-      <span>Copyright © 2019 | @mihtoa</span>
-    </footer>
-  </div>
-</body>
+      <footer class="footer">
+        <span>Copyright © 2019 | @mihtoa</span>
+      </footer>
+    </section>
+    <script type="text/javascript" src="dist/js/app.min.js"></script>
+  </body>
 </html>
