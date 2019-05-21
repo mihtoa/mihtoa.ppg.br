@@ -1,4 +1,5 @@
 const { src, dest, parallel, watch } = require('gulp');
+const babel = require('gulp-babel');
 const sass = require('gulp-sass');
 const minifyCSS = require('gulp-csso');
 const concat = require('gulp-concat');
@@ -14,6 +15,9 @@ function css() {
 function js() {
   return src('src/js/*.js')
     .pipe(sourcemaps.init())
+    .pipe(babel({
+      presets: ['@babel/env']
+    }))
     .pipe(concat('app.min.js'))
     .pipe(sourcemaps.write())
     .pipe(dest('dist/js'))

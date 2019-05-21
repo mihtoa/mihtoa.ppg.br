@@ -14,7 +14,10 @@
   },
   "homepage": "https://github.com/mihtoa/mihtoa.github.io#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
     "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.1",
     "gulp-jshint": "^2.1.0",
