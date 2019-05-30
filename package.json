@@ -26,9 +26,13 @@
     "gulp-sourcemap": "^1.0.1",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.1",
-    "jshint": "^2.10.1"
+    "jshint": "^2.10.1",
+    "webpack-stream": "^5.2.1"
   },
   "scripts": {
     "dev": "gulp default"
+  },
+  "dependencies": {
+    "swiper": "^4.5.0"
   }
 }
