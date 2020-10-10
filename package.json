@@ -2,37 +2,27 @@
   "name": "mihtoa.github.io",
   "version": "1.0.0",
   "description": "Personal Website",
-  "main": "gulpfile.js",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "npx webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mihtoa/mihtoa.github.io.git"
   },
-  "author": "Milene Toazza",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mihtoa/mihtoa.github.io/issues"
   },
   "homepage": "https://github.com/mihtoa/mihtoa.github.io#readme",
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.1",
-    "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemap": "^1.0.1",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "jshint": "^2.10.1",
-    "webpack-stream": "^5.2.1"
-  },
-  "scripts": {
-    "dev": "gulp default"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "swiper": "^4.5.0"
+    "vue": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
   }
 }
