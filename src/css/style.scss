@@ -57,7 +57,7 @@ a {
     width: 650px;
     background: #fff;
     position: relative;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.27);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.27);
     border-radius: 10px;
     @media (max-width: 767px) {
       width: auto;
@@ -74,10 +74,12 @@ a {
         max-width: 200px;
         display: block;
         margin: auto;
+        border-radius: 100%;
+        overflow: hidden;
       }
     }
     .description {
-      padding: 80px 30px;
+      padding: 80px 50px 50px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
